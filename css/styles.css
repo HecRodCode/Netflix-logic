@@ -1,18 +1,49 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 40px;
+}
+
 /* Landing */
 .landing-title {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.2rem;
   text-align: center;
 }
 
-.landing-description {
-  text-align: center;
-  margin: 1rem 0;
+.login-buttons {
+  display: flex;
+  gap: 10px;
 }
 
-a {
-  margin: 0 1rem;
+.login-buttons a {
+  font-family: 'Ubuntu Regular', sans-serif;
+  color: white;
   padding: 0.5rem 1rem;
   background: red;
-  color: white;
+
   text-decoration: none;
+  border-radius: 20px;
+}
+
+.login-buttons a:hover {
+  background: black;
 }

@@ -1,0 +1,62 @@
+@import url(../css/styles.css);
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 500px;
+  height: 500px;
+
+  background-color: white;
+  border-radius: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+}
+
+input {
+  width: 300px;
+  padding: 15px;
+
+  border-radius: 10px;
+}
+
+::placeholder {
+  font-family: 'Ubuntu Regular', sans-serif;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+
+  font-family: 'Ubuntu Regular', sans-serif;
+  font-size: 1rem;
+
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/signUp.css" />
     <title>Netflix Sign Up</title>
   </head>
   <body>
     <form id="register-form">
+      <p class="form-header">Sign Up</p>
       <input type="email" id="email" placeholder="Email" required />
       <input type="password" id="password" placeholder="Password" required />
       <input
@@ -16,9 +17,9 @@
         placeholder="Confirm password"
         required
       />
-      <button type="submit">Sign up</button>
+      <button type="submit" class="signUp-buttons">Save</button>
+      <div id="register-message"></div>
     </form>
-    <div id="message"></div>
 
     <script src="./js/auth.js"></script>
   </body>
