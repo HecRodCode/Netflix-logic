@@ -1,0 +1,16 @@
+/* Landing */
+.landing-title {
+  font-size: 2rem;
+  text-align: center;
+}
+.landing-description {
+  text-align: center;
+  margin: 1rem 0;
+}
+a {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  background: red;
+  color: white;
+  text-decoration: none;
+}
