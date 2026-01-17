@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./css/profiles.css" />
+    <title>Netflix profiles</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h2>Who's watching?</h2>
+
+      <div class="profiles-row">
+        <div id="profiles-container"></div>
+        <button id="open-modal">+</button>
+      </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <h3 class="modal-title">Add a profile</h3>
+        <h4 class="modal-title2">
+          Add a profile for another person watching Netflix.
+        </h4>
+
+        <div class="modal-info">
+          <img
+            src="./assets/avatar-prede.webp"
+            alt="foto-default"
+            class="modal-img"
+          />
+          <input id="new-profile-name" type="text" placeholder="Name" />
+        </div>
+
+        <div class="modal-actions">
+          <button id="save-profile">Save</button>
+          <button id="close-modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/profiles.js"></script>
+  </body>
+</html>

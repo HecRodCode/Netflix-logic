@@ -8,6 +8,11 @@
   src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Inter Regular';
+  src: url(../fonts/Inter_18pt-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,163 @@
+@import url(../css/styles.css);
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.main-container {
+  padding-top: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.profiles-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+#profiles-container {
+  display: flex;
+  gap: 20px;
+}
+
+.profile {
+  cursor: pointer;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.profile-name {
+  font-family: 'Ubuntu Regular', sans-serif;
+  margin-top: 8px;
+  color: white;
+}
+
+#open-modal {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 10px;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #111;
+  padding: 60px 40px;
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+
+.modal-title {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.modal-title2 {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.main-container input {
+  width: 200px;
+}
+
+.modal-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.modal-img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 15px;
+}
+
+input {
+  color: white;
+  font-size: 1rem;
+}
+
+#new-profile-name {
+  width: 100%;
+  height: 30px;
+
+  padding: 10px;
+  border-radius: 5px;
+
+  border: 1px solid white;
+  background: #111;
+}
+
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 50px;
+
+  gap: 10px;
+}
+
+#save-profile,
+#close-modal {
+  border-radius: 5px;
+  padding: 10px;
+
+  border: none;
+
+  font-family: 'Ubuntu Regular', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#close-modal {
+  background-color: #111;
+  color: white;
+}
+
+#save-profile:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+#close-modal:hover {
+  background-color: #323232;
+}

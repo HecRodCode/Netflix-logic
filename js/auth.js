@@ -38,7 +38,9 @@ function registerUser(e) {
   users.push({
     email,
     password,
-    profiles: [{ id: 1, name: 'Profile 1' }],
+    profiles: [
+      { id: 1, name: 'Profile 1', avatar: './assets/avatar-prede.webp' },
+    ],
     favorites: {},
   });
 
