@@ -1,0 +1,127 @@
+@import url(../css/styles.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #131313;
+}
+
+/* HEADER */
+.netflix-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 25px 80px;
+}
+
+.netflix-header .logo h1 {
+  color: #e50914;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.2rem;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.nav-links a {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #e50914;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-icons i {
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.header-icons i:hover {
+  transform: scale(1.2);
+}
+
+/* CATALOG */
+.catalog-page {
+  width: 100%;
+}
+
+.catalog-title {
+  font-family: 'Inter Regular', sans-serifs;
+  font-weight: bold;
+  color: white;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.catalog-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #1c1c1c;
+
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 300px;
+}
+
+.catalog-card:hover {
+  transform: scale(1.05);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 70px;
+  width: 100%;
+}
+
+.title-container p {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.catalog-fav {
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
